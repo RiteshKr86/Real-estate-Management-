@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .star:hover,
+  .star.selected {
+    color: #f5a623;
+  }
+  
